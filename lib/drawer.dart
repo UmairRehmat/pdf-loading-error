@@ -26,7 +26,7 @@ class _DrawerNavigationState extends State<DrawerNavigation> {
             child: Container(
                 alignment: Alignment.centerLeft,
                 child: const Text(
-                  'PPRA',
+                  'PDF Testing',
                   style: TextStyle(
                       fontSize: 20,
                       color: Colors.white54,
@@ -35,7 +35,7 @@ class _DrawerNavigationState extends State<DrawerNavigation> {
           ),
           ListTile(
             title:const Text(
-              "PDf"
+              "PDF"
             ),
             onTap: () {
               Navigator.push(context, MaterialPageRoute(builder: (context) =>const MyHomePage(title:"Pdf")));
